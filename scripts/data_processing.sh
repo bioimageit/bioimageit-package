@@ -4,4 +4,4 @@ BASEDIR=$(dirname $0)
 cd $BASEDIR
 
 source .bioimageit-env/bin/activate
-python3 bioimageapp/finderapp.py
+python3 bioimageit_gui/finderapp.py
