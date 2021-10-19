@@ -5,4 +5,4 @@ call %miniconda_path%\Scripts\activate.bat bioimageit
 
 cd %cd%
 
-python bioimageit_gui\browserapp.py
+python bioimageit_gui\runnerapp.py %1
