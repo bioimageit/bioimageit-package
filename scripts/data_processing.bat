@@ -3,4 +3,6 @@ set miniconda_path=C:\Users\"%USERNAME%"\BioimageIT_installation_files\Miniconda
 
 call %miniconda_path%\Scripts\activate.bat bioimageit
 
-python "C:\Users\"%USERNAME%"\BioimageIT_installation_files\bioimageit_gui\finderapp.py"
+cd %cd%
+
+python bioimageit_gui\finderapp.py
