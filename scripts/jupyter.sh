@@ -1,9 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
-BASEDIR=$(dirname $0)
-cd $BASEDIR
+userdir='/default/'
+if [ "$(uname)" == "Darwin" ]; then
+    userdir="/Users/$USER"
+else
+    userdir="/home/$USER"
+fi
 
-source .bioimageit-env/bin/activate
-
-cd userdata
-jupyter notebook
+install_path="$userdir/BioimageIT_installation_files"
+"$install_path/miniconda3/envs/bioimageit/bin/jupyter" notebook

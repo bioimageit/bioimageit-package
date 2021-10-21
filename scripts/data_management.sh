@@ -1,7 +1,11 @@
 #!/bin/sh
 
-BASEDIR=$(dirname $0)
-cd $BASEDIR
+userdir='/default/'
+if [ "$(uname)" == "Darwin" ]; then
+    userdir="/Users/$USER"
+else
+    userdir="/home/$USER"
+fi
 
-source .bioimageit-env/bin/activate
-python3 bioimageapp/browserapp.py
+install_path="$userdir/BioimageIT_installation_files"
+"$install_path/miniconda3/envs/bioimageit/bin/python" "$install_path/bioimageit_gui/browserapp.py"

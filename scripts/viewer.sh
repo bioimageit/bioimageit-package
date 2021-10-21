@@ -8,4 +8,4 @@ else
 fi
 
 install_path="$userdir/BioimageIT_installation_files"
-"$install_path/miniconda3/envs/bioimageit/bin/python" "$install_path/bioimageit_gui/finderapp.py"
+"$install_path/miniconda3/envs/bioimageit/bin/python" "$install_path/bioimageit_gui/biviewerapp.py" $1
