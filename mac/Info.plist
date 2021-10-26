@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-<key>CFBundleExecutable</key>
+    <key>CFBundleExecutable</key>
 	<string>BioimageIT</string>
 	<key>CFBundleGetInfoString</key>
 	<string>BioimageIT for Mac OS X</string>
@@ -10,40 +10,8 @@
 	<string>BioimageIT.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>BioimageIT</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>BioimageIT</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>LSArchitecturePriority</key>
-	<array>
-		<string>x86_64</string>
-		<string>i386</string>
-		<string>ppc64</string>
-		<string>ppc</string>
-	</array>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>*</string>
-			</array>
-			<key>CFBundleTypeMIMETypes</key>
-			<array>
-				<string>*/*</string>
-			</array>
-			<key>CFBundleTypeName</key>
-			<string>any</string>
-			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
-			<key>LSTypeIsPackage</key>
-			<false/>
-		</dict>
-	</array>
 </dict>    
