@@ -1,4 +1,4 @@
 cd "C:\Users\%USERNAME%\BioImageIT"
-".\Miniconda3\condabin\conda.bat" activate bioimageit
-cd .\bioimageit-notebook
+call ".\Miniconda3\condabin\conda.bat" activate bioimageit
+cd bioimageit-notebooks
 jupyter notebook
