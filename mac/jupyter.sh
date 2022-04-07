@@ -1,4 +1,4 @@
 #!/bin/sh
 
-install_path="/Users/$USER/BioimageIT"
-"$install_path/miniconda3/envs/bioimageit/bin/jupyter" notebook --notebook-dir "$install_path/BioImageIT-notebooks"
+installdir="/Users/$USER/BioImageIT"
+. "$installdir/miniconda3/etc/profile.d/conda.sh" && conda activate bioimageit && jupyter notebook --notebook-dir "$install_path/BioImageIT-notebooks"
