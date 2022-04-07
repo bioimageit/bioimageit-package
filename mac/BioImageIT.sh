@@ -1,4 +1,4 @@
 #!/bin/sh
 
-install_path="/Users/$USER/BioimageIT"
-"$install_path/miniconda3/envs/bioimageit/bin/python" "$install_path/bioimageit_gui/app.py"
+installdir="/Users/$USER/BioImageIT"
+. "$installdir/miniconda3/etc/profile.d/conda.sh" && conda activate bioimageit && python "$installdir/bioimageit_gui/app.py"
